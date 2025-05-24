@@ -28,6 +28,7 @@ Dự án được thiết kế để đơn giản tối đa, với hầu hết l
 📦 Project
 
 ├── 📂server.py
+
 ├──received_files/      # Thư mục nơi các file đã nhận và xác minh thành công sẽ được lưu trữ.
 
 | ├──received_uploaded_test.txt     
