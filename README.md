@@ -30,6 +30,7 @@ Dự án được thiết kế để đơn giản tối đa, với hầu hết l
 ├── 📂server.py
 
 ├──📂received_files/      # Thư mục nơi các file đã nhận và xác minh thành công sẽ được lưu trữ.
+│    ├── 📂 private_key.pem  # Khóa riêng tư, dùng để ký số.  
 │    ├──received_uploaded_test.txt     
 
 ├── 📂 keys/  
