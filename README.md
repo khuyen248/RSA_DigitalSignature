@@ -24,7 +24,8 @@ Mục tiêu chính của ứng dụng là mô phỏng một kịch bản truyề
 ##  📂 Cấu trúc dự án (Project Structure)
 
 Dự án được thiết kế để đơn giản tối đa, với hầu hết logic và giao diện người dùng được gói gọn trong một file Python duy nhất:
-📦 Project 
+📦 Project
+
 ├── 📂server.py
 ├──received_files/            # Thư mục nơi các file đã nhận và xác minh thành công sẽ được lưu trữ.
 | ├──received_uploaded_test.txt     
