@@ -24,13 +24,19 @@ Mục tiêu chính của ứng dụng là mô phỏng một kịch bản truyề
 ##  📂 Cấu trúc dự án (Project Structure)
 
 Dự án được thiết kế để đơn giản tối đa, với hầu hết logic và giao diện người dùng được gói gọn trong một file Python duy nhất:
+
 📦 Project
 
 ├── 📂server.py
-├──received_files/            # Thư mục nơi các file đã nhận và xác minh thành công sẽ được lưu trữ.
+
+├──received_files/      # Thư mục nơi các file đã nhận và xác minh thành công sẽ được lưu trữ.
+
 | ├──received_uploaded_test.txt     
+
 ├── 📂 keys/  
-│    ├── 📂 private_key.pem  # Khóa riêng tư, dùng để ký số.            # Chứa dữ liệu khuôn mặt.
+
+│    ├── 📂 private_key.pem  # Khóa riêng tư, dùng để ký số.     # Chứa dữ liệu khuôn mặt.
+
 |    ├── 📂 public_key.pem   # Khóa công khai, dùng để xác minh chữ ký.      # Chứa dữ liệu khuôn mặt người lạ
 
 ## 🛠️ Cơ chế hoạt động của Chữ Ký Số 
