@@ -31,7 +31,7 @@ Dự án được thiết kế để đơn giản tối đa, với hầu hết l
 
 ├──📂received_files/      # Thư mục nơi các file đã nhận và xác minh thành công sẽ được lưu trữ.
 
-│    ├──📂received_uploaded_test.txt     
+├──    ├──📂received_uploaded_test.txt     
 
 ├── 📂 keys/  
 │    ├── 📂 private_key.pem  # Khóa riêng tư, dùng để ký số.     # Chứa dữ liệu khuôn mặt.
